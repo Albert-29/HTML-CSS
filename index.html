@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AppDeGatos</title>
+  <link rel="stylesheet" href="style.css">
+  <!--Etiqueta link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&family=The+Nautigal&family=Titan+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Estilo en linea-->
+  <h2 id="titulo-principal">App de gatos</h2>
+  <main>
+    <h3>imagenes de gatos:</h3>
+    <!--TODO: Agregar imagenes de gatos-->
+    <p>Haz clic aqui para ver mas <a href="https://developer.mozilla.org/es/" target="_blank"
+        rel="noopener noreferrer">imagenes de gatos</a></p>
+    <!-- El valor del atributo "rel" de la etiqueta <a> nos permite evitar el TABNABBING Enlaces externos-->
+
+    <!-- <a href="#parrafo-1">Párrafo 1</a>
+        <a href="#parrafo-2">Párrafo 2</a>
+        <a href="#parrafo-3">Párrafo 3</a> 
+        <a href="#parrafo-4">Párrafo 4</a> -->
+
+    <a href="https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/" target="_blank"
+      rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat"
+        alt="Lindo gato naranja recostado en su espalda" class="bordes-redondeados"></a>
+
+    <hr>
+    <!--Etiqueta para una linea horizontal-->
+
+    <h3>Listas de gatos</h3>
+    <div class="contenedor-listas">
+      <p>Cosas que los gatos <em> aman </em></p>
+      <ul id="lista-gatos-aman" class="lista-de-gatos">
+        <li>Menta gatuna</li>
+        <li>Apuntadores Láser</li>
+        <li><s>Lasaña</s></li>
+        <!--La etiqueta <s> tacha el texto que esta en medio de ella-->
+      </ul>
+      <img src="img/Pool.png" alt="Mr-pool" class="bordes-redondeados">
+
+      <p>Cosas que los gatos <strong> odian </strong></p>
+      <!--La etiqueta <strong> marca como negritas el texto que esta en medio de ella-->
+      <ol id="lista-gatos-odian" class="lista-de-gatos">
+        <li>Tratamientos antipulgas </li>
+        <li> Truenos </li>
+        <li> Otros gatos </li>
+      </ol>
+    </div>
+    <img id="imagen-de-gatos" src="img/otrosGatos.jpg" alt="Otros gatos" class="bordes-redondeados">
+
+    <form action="/enviar-respuesta"><br>
+      <!--Botones de radio-->
+      <label for="interior">
+        <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+      </label><br>
+
+      <label for="exterior">
+        <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+      </label><br>
+
+      <!--Casillas de verificación-->
+      <label for="carinoso">
+        <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+      </label><br>
+      <label for="perezoso">
+        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+      </label><br>
+      <label for="energico">
+        <input id="energico" type="checkbox" value="energico" name="personalidad">Energico
+      </label><br>
+
+      <!--Texto y botón de enviar-->
+      <input type="text" placeholder="URL de la foto de tu gato" required><br>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <!-- <h3 id="parrafo-1">Párrafo 1</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error est laudantium itaque! Animi enim harum consequatur ipsum necessitatibus eum, praesentium vero optio aut voluptates! Error reprehenderit sapiente pariatur voluptates reiciendis consequatur voluptate nobis hic, at fugiat, accusantium recusandae in? Esse, facilis? Quidem atque labore exercitationem cumque illo recusandae quia quis! Commodi dolorum, beatae quos ratione harum doloribus voluptatem numquam dolor optio culpa dicta aliquam! Commodi numquam perspiciatis corrupti? A labore molestiae eos consequatur ad perspiciatis magni nemo. Saepe magni quas impedit voluptas atque numquam qui magnam possimus, ducimus iusto vero commodi alias hic? Quas possimus neque deserunt dolore itaque, modi vitae non voluptates sunt minus delectus veritatis corrupti reiciendis quos autem. Atque ea dolore odio sequi voluptas, quisquam animi alias?
+        </p>
+
+        <h3 id="parrafo-2">Párrafo 2</h3>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis ratione molestiae omnis nemo quasi, necessitatibus cupiditate harum eligendi temporibus molestias distinctio tenetur voluptate doloribus, libero corporis ea tempore natus? Veritatis alias voluptas quo. Dolorem, nisi fugiat aliquam soluta optio at quasi voluptatibus, iusto ipsa vitae reiciendis? Error rem totam distinctio consequatur molestias, unde fuga repudiandae odio repellendus sequi. Reprehenderit eligendi nesciunt fugit aut placeat harum optio magni, reiciendis voluptatibus minima blanditiis repellat consequuntur illo molestiae autem exercitationem, impedit, illum voluptate quia ut dicta hic. Reprehenderit itaque obcaecati fugiat id totam ad veritatis animi, alias cum consequatur debitis eligendi optio, sunt vitae nam necessitatibus magnam ut. Alias veniam, quod esse, eaque, labore neque eveniet ea facilis iusto doloremque voluptas commodi animi?
+        </p>
+        <h3 id="parrafo-3">Párrafo 3</h3>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sequi veritatis nemo dolorem repudiandae ad dolor ratione quibusdam tempora facere, porro necessitatibus magni rem tempore? Consequatur laudantium est maxime atque labore, delectus ipsa aspernatur deserunt repellendus eum quidem commodi vitae velit dolor enim iusto perferendis sit voluptate. Asperiores eius provident placeat et sunt unde nemo dolore tempore assumenda atque alias, porro autem deserunt maxime iusto aut laborum itaque vel dolores quas delectus hic distinctio. Corporis quos cum nulla enim neque quibusdam! At voluptatem animi excepturi aut iste, molestias exercitationem aspernatur! Non impedit blanditiis itaque, quae, neque delectus vel commodi sed est eius, corporis quisquam dolores libero labore. Dolore provident doloremque iste, reiciendis veniam tenetur harum, eveniet atque repudiandae incidunt dolorum!
+        </p>
+        
+        <h3 id="parrafo-4">Párrafo 4</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, maxime voluptatem. Voluptate inventore esse architecto sint nulla, earum perferendis fugiat eligendi iure enim tempora at natus saepe molestiae? Ea non maxime totam asperiores cumque illum perferendis voluptates, impedit, tenetur quisquam ex, a officiis. Eveniet quo necessitatibus, fuga blanditiis quia sequi labore culpa eum omnis deserunt minus! Dignissimos, ipsum corrupti itaque quo asperiores tempore voluptate ipsam eius blanditiis molestias reiciendis, omnis aliquid iusto tenetur temporibus eaque quas, illo delectus. In exercitationem provident consequuntur cupiditate nostrum quod iure, accusantium commodi nihil earum excepturi architecto, deserunt reprehenderit ex voluptas et! Consectetur possimus facere repellendus labore quae totam error saepe iusto assumenda minima impedit ab, necessitatibus ad autem deserunt repudiandae voluptatem natus qui corporis.
+        </p> -->
+  </main>
+  <footer>
+    <p><small> derechos de Autor - <a href="https://www.freecodecamp.org/espanol/" target="_blank"
+          rel="noopener noreferrer">freecodecamp.org</a></small></p>
+  </footer>
+</body>
+
+</html>

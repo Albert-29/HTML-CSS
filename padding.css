@@ -1,0 +1,17 @@
+div{
+  /* background-color: aquamarine; */
+  border-width: 6px;
+  border-color: black;
+  border-style: solid;
+}
+
+
+img{
+  /* padding: 20px 15px 5px  10px; */
+  margin: 25px;
+  padding: 25px;
+  /* background-color: beige; */
+  border-width: 6px;
+  border-color: black;
+  border-style: solid;
+}

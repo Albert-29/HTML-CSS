@@ -1,0 +1,28 @@
+#contenedor-principal {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.rectangulo{
+  padding: 5px;
+  margin: 5px;
+}
+/* Unidad absoluta */
+.px{
+  background-color: crimson;
+  width: 200px;
+}
+/* unidades relativas */
+.vw{
+  background-color: darkmagenta;
+  width: 20vw;
+}
+
+.em{/* Esta unidad es relativa al tamaño de la letra del contenedor principal*/
+  background-color: green;
+  width: 15em;
+  font-size: 1em;
+}
